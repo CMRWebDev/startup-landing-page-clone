@@ -437,22 +437,33 @@ div {
 
 /* Navigation Section */
 
-zzzqqwweeer
 
-.masthead-menu {
-  display: inline-block;
+
+.top-navigation {
+  background-color: #fff;
+}
+
+.top-navigation > .content {
+  width: 970px;
+  height: 70px;
+  margin: 0 auto; /* always centered */
+  padding: 0px 15px;
+}
+
+.top-navigation > .content > .logo {
   
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.top-navigation > .content > .links {
+  float: right;
+  
+  list-style-type: none;
+  display: inline-block;
 }
 
-li {
-    display: inline;
-}
+
+    
+
 
 
 
